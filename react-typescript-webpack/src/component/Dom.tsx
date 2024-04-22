@@ -5,6 +5,6 @@ interface DomProps {
 }
 
 export const Dom: React.FC<DomProps> = ({ children }) => {
-  return <p>{children}</p>;
+  return <p>{children}+"Пиздец"</p>;
 };
 
